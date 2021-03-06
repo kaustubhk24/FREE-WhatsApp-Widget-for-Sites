@@ -15,3 +15,7 @@ To add just copy paste code below in your body tag and update value of wpURL & d
 
 
 ```
+
+It is completely FREE to use but to avoid commercial usage code is Obfuscated, 
+You must not use this for commercial use
+
