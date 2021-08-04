@@ -7,10 +7,10 @@ To add just copy paste code below in your body tag and update value of wpURL & d
 ```javascript
 
     <script type="text/javascript">
-    var wpURL="https://wa.me/your_mobile_number"
+    var wpURL="https://wa.me/your_mobile_number_with_country_code"
     </script>
     <div id="whatsapp-btn" ></div>
-    <script type="text/javascript" src="https://kaustubh.codes/assets/js/whatsapp-widget.js">
+    <script type="text/javascript" src="https://kaustubhk24.github.io/FREE-WhatsApp-Widget-for-Sites/whatsapp-widget.js">
     </script>
 
 
