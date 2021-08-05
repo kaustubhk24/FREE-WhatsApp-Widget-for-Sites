@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+
+  
+	<title>WhatsApp Link Generator</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+		integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link rel="stylesheet" href="../main-style.css" type="text/css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+
+
+</head>
+
+<body>
+
+
+<!---NAVBAR-->
+
+
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+	<a class="navbar-brand black bold" href="index.html">WhatsApp Link Generator</a>
+	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+	<span class="navbar-toggler-icon"></span>
+	</button>
+	<div class="collapse navbar-collapse" id="navbarSupportedContent">
+	<ul class="navbar-nav mr-auto">
+	  <li class="nav-item active">
+	  </li>
+	</ul>
+	  <a class="black bold" href="https://github.com/kaustubhk24"> KaustubhK24</a>
+	</div>
+	
+	</nav>
+  
+  <!--NAVBAR-->
+
+
+
+	<!----Main Content-->
+
+	<section class="container-fluid bg py-3">
+		<section class="row justify-content-center">
+			<section class="col-12 col-sm-8 col-md-7">
+
+				<div class="form-container py-4">
+
+					<div class="form-group">
+                        <h4>Enter Few Details </h4>
+                   
+						<h6>Mobile Number</h6>
+
+						<input type="number" class="form-control" id="mobile"  placeholder="e.g. 9198XXXXXXXX00" minlength="3"
+							 required>
+                            <small id="mobhelp" class="form-text text-muted">Enter Number with Country code , Do not include + symbol, example, for India use only 91 as prefix.</small>
+
+
+                                                 <h6>Message</h6>
+						<input type="text" class="form-control" id="message"  placeholder="e.g. Hello, I'm Looking for ..." minlength="1"
+						 >
+                         <small id="mobhelp" class="form-text text-muted">Enter message, that you want to receive from user</small>
+                            
+                            
+					</div>
+				
+                    <div id="snackbar">Text Copied ...</div>
+
+					<button type="submit" href="#output" class="btn btn-success btn-block" onclick="generateFunction()">Generate </button><br>
+                    <h6>Your WhatsApp Link</h6>
+                    <textarea name="wp-link" id="wp-link"  class="form-control"  cols="30" rows="2"></textarea>
+					<h6 class="float-right text-primary" onclick="cop2();"><u>Click To Copy</u></h6>
+
+					<h6>Add Free WhatsApp Widget</h6>
+
+                    <textarea name="wp-widget" id="wp-widget" class="form-control"  cols="30" rows="5"></textarea>
+					<h6 class="float-right text-primary" onclick="cop();"><u>Click To Copy</u></h6>
+
+
+
+                </div>
+			</section>
+
+            <br>
+
+
+<br>
+
+</section>
+</section>
+
+
+
+	<!----Main Content-->
+
+
+
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+		integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+		crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+		integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+		crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+		integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+		crossorigin="anonymous"></script>
+
+<script src="gen.js" type="text/javascript"></script>
+
+
+
+<footer class="footer bg-dark">
+	<div class="container">
+	  <span class="black" >Copyright &copy; 2021 |</span>
+	  <a class="black" href="https://github.com/kaustubhk24"> KaustubhK24</a>
+	</div>
+  </footer>
+  
+
+</body>
+
+</html>
