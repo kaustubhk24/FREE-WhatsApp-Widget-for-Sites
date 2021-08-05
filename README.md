@@ -17,7 +17,7 @@ To add just copy paste code below in your body tag and update value of wpURL & d
 
 ```
 ## Setup Wizard
-If you want to generate Link with custom message, please visit [https://kaustubhk24.github.io/FREE-WhatsApp-Widget-for-Sites/whatsapp-widget.js](https://kaustubhk24.github.io/FREE-WhatsApp-Widget-for-Sites/whatsapp-widget.js)
+If you want to generate Link with custom message, please visit [https://kaustubhk24.github.io/FREE-WhatsApp-Widget-for-Sites/](https://kaustubhk24.github.io/FREE-WhatsApp-Widget-for-Sites/)
 
 ### Important 
 It is completely FREE to use but to avoid commercial usage code is Obfuscated, 
